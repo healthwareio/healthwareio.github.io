@@ -145,19 +145,19 @@ Background  color
 -----------------------------------------------------------------------*/
 .white-bg { background: #ffffff; }
 .gray-bg { background: #f4f4f4; }
-.blue-bg { background: #3277f8; }
+.blue-bg { background: #226ab2; }
 .dark-bg { background: #1e1e1e; }
 .orange-bg { background: #fda96c; }
 .lightdark-bg { background: #191a20; }
 .main-bg { background: url("../images/bg/01.png") no-repeat center center; }
 
-.button.blue-btn{background: #3277f8;}
+.button.blue-btn{background: #226ab2;}
 .button.blue-btn:hover{background: #1e1e1e;}
 .pt-100{padding-top: 100px;}
 /*---------------------------------------------------------------------
  color
 -----------------------------------------------------------------------*/
-.blue-color { color:#3277f8; }
+.blue-color { color:#226ab2; }
 .dark-blue{color:#4731b6;}
 .orange-color {color:#ff6a5c; }
 .green-color{color:#6cdac1; }
@@ -233,8 +233,8 @@ Loader
 /*---------------------------------------------------------------------
 Extra class
 ---------------------------------------------------------------------*/
-section { padding: 120px 0; }
-.main-content{ overflow-x: hidden;}
+section { padding: 80px 0; }
+/* .main-content{ overflow-x: hidden;} */
 .container-fluid { padding: 0 100px; }
 .overflow ,.main-content.overflow {overflow:visible;}
 .iq-border-top{border-top: 1px solid rgba(142, 152, 159, 0.13)}
