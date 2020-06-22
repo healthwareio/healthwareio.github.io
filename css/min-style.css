@@ -13043,7 +13043,7 @@ section.padding {
 }
 
 .solutions__tile:hover {
-  transition: background 300ms ease-in-out, transform 240ms ease-in-out box-shadow 240ms ease-in-out;
+  /* transition: background 300ms ease-in-out, transform 240ms ease-in-out box-shadow 240ms ease-in-out; */
   transform: translateY(-.11111rem);
   box-shadow: rgba(0,0,0,0.25) 0 0.55556rem 1.11111rem 0;
   outline: none;
@@ -13075,12 +13075,12 @@ section.padding {
   cursor: pointer;
 }
 
-.card {
+.card2 {
   background: #fff;
-  border: 1px solid #dbdbdb;
+  /* border: 1px solid #dbdbdb; */
   box-sizing: border-box;
   box-shadow: 0 4px 14px rgba(70, 97, 138, .2);
-  border-radius: 0px;
+  border-radius: 8px;
   -webkit-transition: all 0.5s ease-in-out;
 }
 
@@ -13133,7 +13133,7 @@ section.padding {
 }
 
 
-.card:hover {
+.card2:hover {
   background-color: #226ab2;
 }
 /* ================================== */
