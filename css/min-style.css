@@ -12664,7 +12664,8 @@ body {
 }
 
 .right-bg {
-  background-image: url(../images/altruista-smart-bg_03.jpg);
+  /* background-image: url(../images/altruista-smart-bg_03.jpg); */
+  background-color: #226ab2;
   min-height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12680,8 +12681,8 @@ body {
 }
 
 .solution-btn {
-  background-color: #bae426;
-  border-bottom: 2px solid #78960e;
+  background-color: #fff;
+  /* border-bottom: 2px solid #78960e; */
   text-decoration: none;
   color: #226ab2;
   padding: 10px 34px 10px 34px;
@@ -13134,4 +13135,63 @@ section.padding {
 
 .card:hover {
   background-color: #226ab2;
+}
+/* ================================== */
+.divider-block.dark-blue {
+  background: #226ab2;
+}
+.divider-block {
+  position: relative;
+  /* font-family: "Gotham A","Gotham B",sans-serif; */
+  overflow: hidden;
+}
+.divider-block .lines {
+  position: absolute;
+  top: -20px;
+  right: -200px;
+  width: 868px;
+  height: 600px;
+}
+
+.divider-block .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  height: 220px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+.divider-block .container div:nth-child(1) {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.3em;
+  /* text-transform: uppercase; */
+  color: #fff;
+  margin: 0 40px 0 0;
+}
+
+.divider-block .container div:nth-child(2) a {
+  position: relative;
+  display: block;
+  width: 250px;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #226ab2;
+  background-color: #fff;
+  border-radius: 27.5px;
+  transition: background-color cubic-bezier(.19,1,.22,1) .5s;
+  box-sizing: border-box;
+}
+
+.divider-block .container div:nth-child(2) a:hover {
+  color: #fff;
+  background-color: #bae426;
 }
