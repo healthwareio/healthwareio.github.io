@@ -12493,8 +12493,8 @@ body {
 }
 
 .btn-white {
-  color: #226ab2;
-  background-color: #bae426 !important;
+  color: #fff;
+  background-color: #226ab2 !important;
   /* border-color: #226ab2; */
 }
 
@@ -13195,3 +13195,23 @@ section.padding {
   color: #fff;
   background-color: #bae426;
 }
+
+@media (max-width: 1000px) {
+  .divider-block .container {
+    flex-direction: column;
+    height: auto;
+    padding: 40px;
+    text-align: center;
+}
+.divider-block .container div:nth-child(2) {
+  margin: 20px 0 0 0;
+}
+}
+@media (max-width: 700px) {
+  .divider-block .container div:nth-child(1) {
+    font-size: 24px;
+}
+}
+
+
+/* ============================================================ */ 
