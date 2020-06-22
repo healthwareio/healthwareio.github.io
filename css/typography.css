@@ -53,17 +53,17 @@ import Css
 -----------------------------------------------------------------------*/
 *::-moz-selection { background: #a37cfc; color: #ffffff; text-shadow: none; }
 ::-moz-selection { background: #a37cfc; color: #ffffff; text-shadow: none; }
-::selection { background: #a37cfc; color: #ffffff; text-shadow: none; }
+/* ::selection { background: #a37cfc; color: #ffffff; text-shadow: none; } */
 body {font-family: 'Poppins', sans-serif; font-weight: normal; font-style: normal; font-size: 15px; line-height: 2; color: #8e989f; overflow-x: hidden !important; }
 a, .button {color: #8e989f; }
 a, .button, .box-effect .blue-btn.link-button:after { transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out;}
 a:focus { text-decoration: none !important; }
 a:hover{text-decoration: none;}
-a, .button, input { outline: medium none !important; color: #a37cfc; }
+/* a, .button, input { outline: medium none !important; color: #a37cfc; } */
 h1, h2, h3, h4, h5, h6 { font-family: 'Now', sans-serif; color: #1e1e1e; margin: 0; -ms-word-wrap: break-word; word-wrap: break-word; line-height: 1.5em; font-weight:normal; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 a h1, a h2, a h3, a h4, a h5, a h6 { color: #1e1e1e; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
-a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {color: #a37cfc; }
+/* a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 {color: #a37cfc; } */
 h1 { font-size: 3.052em; }
 h2 { font-size: 2.441em; }
 h3 { font-size: 1.953em; }
