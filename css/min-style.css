@@ -12828,7 +12828,7 @@ body {
 @media (min-width: 992px) {
   .simple-grid--3-6 .simple-grid__cell:nth-child(3n+1) {
     padding-left: 1rem;
-    padding-right: 3rem;
+    padding-right: 2rem;
   }
 
   .w-heading {
@@ -12888,7 +12888,7 @@ body {
 }
 
 .simple-grid--3-6 .simple-grid__cell {
-  padding: 3rem 2.5rem
+  padding: 2rem 2.5rem
 }
 
 .simple-grid--3-6 .simple-grid__cell p:last-of-type {
@@ -12903,7 +12903,7 @@ body {
 
   .simple-grid--3-6 .simple-grid__cell:nth-child(3n+1) {
     padding-left: 1rem;
-    padding-right: 3rem
+    padding-right: 2rem
   }
 
   .simple-grid--3-6 .simple-grid__cell:nth-child(3n) {
