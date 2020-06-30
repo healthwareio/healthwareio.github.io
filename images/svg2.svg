@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="833" viewBox="0 0 1366 833">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f7f7f7;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+        opacity: 0.99;
+      }
+
+      .cls-2 {
+        fill: #f1f1ff;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="-271" y="290" width="550" height="617" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="20" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="5.477"/>
+      <feFlood result="flood" flood-opacity="0.1"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Rounded_Rectangle_1_copy_2" data-name="Rounded Rectangle 1 copy 2" class="cls-1" d="M1223.16,408.758l303.8-219.818c7.04-5.1,17.36-3.383,23.03,3.836l298.82,380.391c56.72,72.194,45.54,172.07-24.95,223.079l-303.8,219.814c-7.05,5.1-17.36,3.39-23.03-3.83L1198.2,631.837C1141.49,559.643,1152.66,459.766,1223.16,408.758Z" transform="translate(-16 -186)"/>
+  <path id="Rounded_Rectangle_1_copy" data-name="Rounded Rectangle 1 copy" class="cls-2" d="M-183.365,390.805l179.916-90.63c3.656-1.841,8.947-1.244,11.858,1.343L204.345,475.662c49.681,44.155,61.4,114.391,17.351,154.829L-21.039,853.352c-6.946,6.379-16.785,4.223-21.838-4.75l-189.4-336.278C-257.389,467.747-231.235,414.919-183.365,390.805Z" transform="translate(-16 -186)"/>
+</svg>

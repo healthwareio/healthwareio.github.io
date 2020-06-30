@@ -4963,7 +4963,7 @@ Service-box process Style-2
 
 .sox-services.green-hover .service-number,
 .sox-services.green-hover .sox-icon i {
-  color: #6cdac1;
+  color: #226ab2;
 }
 
 .sox-services:hover i,
@@ -5037,12 +5037,12 @@ Service-box Style-3
 
 .color-palette.blue-hover:before,
 .sox-services.blue-hover:before {
-  background: #377dff;
+  background: #226ab2;
 }
 
 .color-palette.blue-hover .circle-icon,
 .sox-services.blue-hover .sox-icon i {
-  color: #377dff;
+  color: #226ab2;
 }
 
 .color-palette.blue-hover:hover .circle-icon {
@@ -5050,7 +5050,7 @@ Service-box Style-3
 }
 
 .color-palette.blue-hover .circle-icon:before {
-  background: #377dff;
+  background: #226ab2;
 }
 
 /*---------------------------------------------------------------------
@@ -13228,7 +13228,42 @@ section.padding {
 
 
 /* ============================================================ */
-
+.company_pack {
+  background-image: url(../images/svg2.svg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 734px;
+}
+.company_pack2 {
+  background-image: url(../images/svg44.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+@media(max-width:767px) {
+  .solutions-section h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 60px;
+  }
+  .mobile_virsion_company_pack {
+    background-image: url(../images/index-banner-mobile-version.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: auto;
+  }
+  .mobile_virsion_company_pack2 {
+    background-image: url(../images/index-banner-mobile-version.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: auto;
+  }
+  .company_pack {
+    height: auto;
+  }
+}
 
 /* ----------------------------------------------------------------
 	Footer Demo
