@@ -13235,6 +13235,7 @@ section.padding {
   background-repeat: no-repeat;
   height: 734px;
 }
+
 .company_pack2 {
   background-image: url(../images/svg44.png);
   background-size: 100%;
@@ -13242,27 +13243,89 @@ section.padding {
   background-repeat: no-repeat;
   height: 900px;
 }
+
 @media(max-width:767px) {
   .solutions-section h2 {
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 60px;
   }
+
   .mobile_virsion_company_pack {
     background-image: url(../images/index-banner-mobile-version.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
     height: auto;
   }
+
   .mobile_virsion_company_pack2 {
     background-image: url(../images/index-banner-mobile-version.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
     height: auto;
   }
+
   .company_pack {
     height: auto;
   }
+}
+
+/* ================================ */
+.service-content .shadow-box.android.rev {
+  border-color: #a4c639;
+}
+
+.service-content .shadow-box {
+  margin-right: 30px;
+  padding: 20px 0;
+  text-align: left;
+  border-radius: 10px;
+  position: relative;
+  border: 1px solid #eee;
+  transition: all .4s ease-out 0s;
+}
+
+.service-content .shadow-box.rev .service-icon {
+  box-shadow: 0 0 14px -5px rgba(0, 0, 0, .2);
+}
+
+.service-icon {
+  height: 70px;
+  width: 70px;
+  background-color: #fff;
+  display: inline-block;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: -30px;
+  position: relative;
+  transition: all .3s ease-out 0s;
+}
+
+.service-icon {
+  float: left;
+}
+
+.service-title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 17px;
+  /* font-weight: 600; */
+  color: #000;
+}
+.service-content .shadow-box.rev {
+  border-color:#e2e2e2;
+  box-shadow: none;
+}
+.m-b-30 {
+  margin-bottom: 30px;
+}
+@media (max-width: 1199px) {
+  .service-content .shadow-box {
+    margin-right: 0;
+    margin-left: 30px;
+}
 }
 
 /* ----------------------------------------------------------------
