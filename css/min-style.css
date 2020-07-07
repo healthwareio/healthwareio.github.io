@@ -13244,6 +13244,13 @@ section.padding {
   height: 900px;
 }
 
+.company_pack3 {
+  background-image: url(../images/svg44.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+}
 @media(max-width:767px) {
   .solutions-section h2 {
     font-size: 24px;

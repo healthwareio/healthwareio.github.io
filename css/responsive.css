@@ -281,7 +281,7 @@
 	.color-palette .media { display: block; }
 	.color-palette .circle-icon { margin-bottom: 30px; }
 	.sub-header { display: none }
-	.testimonial-circle { width: 300px; height: 300px;display: inline; }
+	.testimonial-circle { width: 300px; height: 300px; display: inline; }
 	.testimonial-circle .testimonial-img ul li img { width: 50px; height: 50px; }
 	.testimonial-circle .circle-bg { width: 115px; height: 115px; line-height: 115px; }
 	.testimonial-circle .effect-circle { width: 180px; height: 180px; }
