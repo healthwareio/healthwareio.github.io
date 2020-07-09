@@ -13251,6 +13251,7 @@ section.padding {
   background-repeat: no-repeat;
   height: 900px;
 }
+
 @media(max-width:767px) {
   .solutions-section h2 {
     font-size: 24px;
@@ -13321,20 +13322,184 @@ section.padding {
   /* font-weight: 600; */
   color: #000;
 }
+
 .service-content .shadow-box.rev {
-  border-color:#e2e2e2;
+  border-color: #e2e2e2;
   box-shadow: none;
 }
+
 .m-b-30 {
   margin-bottom: 30px;
 }
+
 @media (max-width: 1199px) {
   .service-content .shadow-box {
     margin-right: 0;
     margin-left: 30px;
-}
+  }
 }
 
 /* ----------------------------------------------------------------
-	Footer Demo
+Get in touth And Clinet banner
 -----------------------------------------------------------------*/
+.getintouch {
+  background: url(../images/Get-In-Touch.png) no-repeat;
+  clear: both;
+}
+
+.get-in-touch-block {
+  padding: 67px 0;
+}
+
+.get-in-touch-block h2.block-title {
+  display: block;
+  vertical-align: middle;
+  width: 47%;
+  /* text-transform: uppercase; */
+  color: #fff;
+  /* font-weight: 800; */
+  font-size: 40px;
+}
+
+.get-in-touch-block h2.block-title span.field-content {
+  margin-bottom: 20px;
+}
+
+.get-in-touch-block .contact-us a {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 0px;
+  border: 2px solid #ffffff;
+  color: #FFFFFF;
+  border-radius: 50px;
+  display: inline-block;
+  width: 200px;
+  font-weight: 600;
+}
+
+.emizentech-banner {
+  padding: 80px 0 40px;
+}
+
+.banner-client {
+  position: relative;
+  margin: -55px 35px 20px;
+  background: #fff;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  z-index: 2;
+}
+
+.client-label {
+  padding: 22px 10px;
+  background: #ecf2fe;
+  border-radius: 0 0 80px 0;
+}
+
+.client-label p {
+  padding: 5px 0 0;
+  color: #252525;
+}
+
+.client-image img {
+  filter: grayscale(100%);
+  opacity: .5;
+  transition: all ease .4s;
+}
+
+/* =============================== */
+@media (max-width: 767px) {
+  .get-in-touch-block h2.block-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .get-in-touch-block .body {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .field-content a {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    width: 200px;
+    font-weight: 600;
+  }
+
+  .sofbox-fullrside-img {
+    padding: 50px 0;
+  }
+
+  .emizentech-banner {
+    padding: 40px 0 0;
+  }
+
+  .client-label {
+    border-radius: 0;
+  }
+
+  .banner-client {
+    margin-top: 50px;
+  }
+
+  .client-label p {
+    font-size: 14px;
+  }
+
+  .client-image {
+    position: relative;
+    background: #fff;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, .1);
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  .banner-client {
+    box-shadow: none
+  }
+
+}
+
+@media screen and (max-width: 991px) {
+  .client-label {
+    margin-bottom: 20px;
+  }
+
+  .banner-client {
+    padding-bottom: 20px;
+    margin: -20px 0 20px;
+    background-color: #fbfbfb;
+  }
+
+  .client-label p {
+    font-size: 16px;
+  }
+
+  .client-image {
+    padding: 15px;
+  }
+
+}
+
+@media screen and (max-width: 1199px) {
+  .client-label img {
+    width: 50px;
+  }
+
+  .client-image img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 575px) {
+  .col-xs-6 {
+    width: 50% !important;
+  }
+}

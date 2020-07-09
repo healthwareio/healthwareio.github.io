@@ -13,7 +13,9 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 	<!-- REVOLUTION STYLE SHEETS -->
 	<link rel="stylesheet" href="revslider/css/rs6.css">
 	<!-- Typography CSS -->
@@ -255,27 +257,46 @@
 			</rs-slides>
 			<rs-progress class="rs-bottom" style="visibility: hidden !important;"></rs-progress>
 		</rs-module>
-		<script type="text/javascript">
-			if (typeof revslider_showDoubleJqueryError === "undefined") {
-				function revslider_showDoubleJqueryError(sliderID) {
-					var err = "<div class='rs_error_message_box'>";
-					err += "<div class='rs_error_message_oops'>Oops...</div>";
-					err += "<div class='rs_error_message_content'>";
-					err +=
-						"You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
-					err +=
-						"To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' ->  'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
-					err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
-					err += "</div>";
-					err += "</div>";
-					jQuery(sliderID).show().html(err);
-				}
-			}
-		</script>
+
 	</rs-module-wrap>
 	<!-- END REVOLUTION SLIDER -->
 	<!-- Main Content -->
 	<div class="main-content">
+		<section class="emizentech-banner">
+			<div class="container">
+
+				<div class="banner-client">
+					<div class="row align-items-center">
+						<div class="col-lg-2 col-sm-12">
+							<div class="client-label">
+								<img src="images/client-icons.png" alt="Valuable Clients" width="68" height="52">
+								<p>Valuable Clients</p>
+							</div>
+						</div>
+						<div class="col-lg-2 col-sm-6 col-xs-6">
+							<div class="client-image"><img src="images/client-logo1.png" alt="Logo" width="154"
+									height="86"></div>
+						</div>
+						<div class="col-lg-2 col-sm-6 col-xs-6">
+							<div class="client-image"><img src="images/client-logo2.png" alt="Logo" width="154"
+									height="86"></div>
+						</div>
+						<div class="col-lg-2 col-sm-6 col-xs-6">
+							<div class="client-image"><img src="images/client-logo3.png" alt="Logo" width="154"
+									height="86"></div>
+						</div>
+						<div class="col-lg-2 col-sm-6 col-xs-6">
+							<div class="client-image"><img src="images/client-logo4.png" alt="Logo" width="154"
+									height="86"></div>
+						</div>
+						<div class="col-lg-2 col-sm-6 col-xs-6">
+							<div class="client-image"><img src="images/client-logo5.png" alt="Logo" width="154"
+									height="86"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<section class="sofbox-fullrside-img solutions-section company_pack mobile_virsion_company_pack">
 			<div class="container">
 				<div class="row">
@@ -411,9 +432,9 @@
 
 								<div class="nodejs_icon position-absolute">
 
-									<img src="images/telehealth-icon1.svg"
-										alt="Catalyst To Fitness Goal" class="img-fluid">
-								
+									<img src="images/telehealth-icon1.svg" alt="Catalyst To Fitness Goal"
+										class="img-fluid">
+
 								</div>
 
 								<div class="node_fun_header">
@@ -1239,105 +1260,126 @@
 
 				</div>
 		</section>
-
-
-		<section class="sofbox-gradient-bg-top solutions-section" id="iq-portfolio">
+		<section class=" getintouch views-element-container get-in-touch-block clearfix">
 			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-12">
-						<h2 class="">Industries</h2>
+				<div class="form-group">
+					<div class="views-row">
+						<div class="views-field views-field-field-call-action-image">
+							<div class="field-content"></div>
+						</div>
+						<h2 class="views-field views-field-title block-title"><span class="field-content">Get in
+								Touch</span></h2>
+						<div class="views-field views-field-body body">
+							<div class="field-content"></div>
+						</div>
+						<div class="views-field views-field-field-link-to-form contact-us">
+							<div class="field-content"><a class="use-ajax" data-dialog-type="modal"
+									href="contact-us.html">Contact Us</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-						<!-- <p class="text-center desc">Customized Solutions with Open Source Software & On Premise
+		</section>
+	</div>
+
+	<section class="sofbox-gradient-bg-top solutions-section" id="iq-portfolio">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<h2 class="">Industries</h2>
+
+					<!-- <p class="text-center desc">Customized Solutions with Open Source Software & On Premise
 							Deployments
 						</p> -->
-					</div>
-					<div class="col-lg-12">
-						<div class="row">
-							<div class="col-lg-3">
-								<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
-									data-wow-delay="0.4s"
-									style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-									<div class="sox-icon">
-										<h5 class="text-hover">Customized Invoices</h5>
-										<i aria-hidden="true" class="flaticon flaticon-growth"></i>
-									</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="row">
+						<div class="col-lg-3">
+							<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
+								data-wow-delay="0.4s"
+								style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+								<div class="sox-icon">
+									<h5 class="text-hover">Customized Invoices</h5>
+									<i aria-hidden="true" class="flaticon flaticon-growth"></i>
 								</div>
 							</div>
-							<div class="col-lg-3">
-								<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
-									data-wow-delay="0.4s"
-									style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-									<div class="sox-icon">
-										<h5 class="text-hover">Stock Management</h5>
-										<i aria-hidden="true" class="flaticon flaticon-paper-plane"></i>
-									</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
+								data-wow-delay="0.4s"
+								style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+								<div class="sox-icon">
+									<h5 class="text-hover">Stock Management</h5>
+									<i aria-hidden="true" class="flaticon flaticon-paper-plane"></i>
 								</div>
 							</div>
-							<div class="col-lg-3">
-								<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
-									data-wow-delay="0.4s"
-									style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-									<div class="sox-icon">
-										<h5 class="text-hover">Receivable &amp; Payables</h5>
-										<i aria-hidden="true" class="flaticon flaticon-professional"></i>
-									</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
+								data-wow-delay="0.4s"
+								style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+								<div class="sox-icon">
+									<h5 class="text-hover">Receivable &amp; Payables</h5>
+									<i aria-hidden="true" class="flaticon flaticon-professional"></i>
 								</div>
 							</div>
-							<div class="col-lg-3">
-								<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
-									data-wow-delay="0.4s"
-									style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-									<div class="sox-icon">
-										<h5 class="text-hover">Manage Buying</h5>
-										<i aria-hidden="true" class="flaticon flaticon-reward"></i>
-									</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
+								data-wow-delay="0.4s"
+								style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+								<div class="sox-icon">
+									<h5 class="text-hover">Manage Buying</h5>
+									<i aria-hidden="true" class="flaticon flaticon-reward"></i>
 								</div>
 							</div>
-							<div class="col-lg-3">
-								<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
-									data-wow-delay="0.4s"
-									style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-									<div class="sox-icon">
-										<h5 class="text-hover">Powerful &amp; Secure </h5>
-										<i aria-hidden="true" class="flaticon flaticon-business"></i>
-									</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
+								data-wow-delay="0.4s"
+								style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+								<div class="sox-icon">
+									<h5 class="text-hover">Powerful &amp; Secure </h5>
+									<i aria-hidden="true" class="flaticon flaticon-business"></i>
 								</div>
 							</div>
-							<div class="col-lg-3">
-								<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
-									data-wow-delay="0.4s"
-									style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-									<div class="sox-icon">
-										<h5 class="text-hover">Fastest Return Filing</h5>
-										<i aria-hidden="true" class="flaticon flaticon-professional"></i>
-									</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
+								data-wow-delay="0.4s"
+								style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+								<div class="sox-icon">
+									<h5 class="text-hover">Fastest Return Filing</h5>
+									<i aria-hidden="true" class="flaticon flaticon-professional"></i>
 								</div>
 							</div>
-							<div class="col-lg-3">
-								<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
-									data-wow-delay="0.4s"
-									style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-									<div class="sox-icon">
-										<h5 class="text-hover">Monthly Detailed</h5>
-										<i aria-hidden="true" class="flaticon flaticon-document-1"></i>
-									</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
+								data-wow-delay="0.4s"
+								style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+								<div class="sox-icon">
+									<h5 class="text-hover">Monthly Detailed</h5>
+									<i aria-hidden="true" class="flaticon flaticon-document-1"></i>
 								</div>
 							</div>
-							<div class="col-lg-3">
-								<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
-									data-wow-delay="0.4s"
-									style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-									<div class="sox-icon">
-										<h5 class="text-hover">Product Management</h5>
-										<i aria-hidden="true" class="flaticon flaticon-thumbs-up"></i>
-									</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="sox-services service-pattern wow fadeInUp text-left blue-hover"
+								data-wow-delay="0.4s"
+								style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+								<div class="sox-icon">
+									<h5 class="text-hover">Product Management</h5>
+									<i aria-hidden="true" class="flaticon flaticon-thumbs-up"></i>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
 
 	</div>
@@ -1548,7 +1590,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- back-to-top -->
+
 		<div id="back-to-top" style="display: block;">
 			<a class="top" id="top" href="#top"> <i class="ion-ios-upload-outline"></i> </a>
 		</div>
