@@ -2561,7 +2561,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover {
  Footer
 -----------------------------------------------------------------------*/
 footer {
-  padding: 75px 0;
+  padding: 75px 0 30px;
 }
 
 footer .iq-subscribe {
@@ -2673,7 +2673,7 @@ footer.footer-one.footer-shap .container:after {
   bottom: 0;
   height: 238px;
   left: 0;
-  z-index: 0;
+  z-index: -1;
   width: 100%;
   content: "";
   background: url(../images/home-2/footer.png)no-repeat;
@@ -3168,6 +3168,30 @@ footer .copyright-space {
   opacity: 0;
 }
 
+.count-flag {
+  display: flex;
+  margin-bottom: 15px;
+}
+.count-flag h4 {
+  padding-left: 10px;
+  color: #fff;
+  font-size: 18px;
+}
+.footer-addre-content p {
+  color: #e6e6e6;
+}
+.footer-addre-content a {
+  color: #e6e6e6;
+}
+.iq-copyright {
+  float: left;
+}
+.list-inline  {
+  text-align: right;
+}
+.list-inline-item a {
+  color: #fff;
+}
 /*---------------------------------------------------------------------
  Background Gradient
 ---------------------------------------------------------------------*/
@@ -3302,7 +3326,7 @@ footer .copyright-space {
   position: absolute;
   top: 1px;
   width: 100%;
-  z-index: 0;
+  z-index: -1;
   background-image: -moz-linear-gradient(0deg, rgb(109, 115, 239) 0%, rgb(163, 120, 252) 100%);
   background-image: -webkit-linear-gradient(0deg, rgb(55, 64, 84) 0%, #374054 100%);
   /* background-image: -webkit-linear-gradient(0deg, rgb(109, 115, 239) 0%, rgb(163, 120, 252) 100%); */
@@ -13502,4 +13526,42 @@ Get in touth And Clinet banner
   .col-xs-6 {
     width: 50% !important;
   }
+}
+/*---------------------------------------------------------------------
+                          Privecy _term Conditionb
+-----------------------------------------------------------------------*/
+.common_section {
+  padding: 120px 0px;
+}
+.wrap-in {
+  border: 1px solid #ececec;
+}
+.wrap-in .content {
+  padding: 30px;
+}
+.wrap-in .page-head {
+  border-bottom: 1px solid #ececec;
+  padding: 20px 30px;
+}
+.wrap-in .page-head .center-heading h1 {
+  font-size: 32px;
+  margin: 0;
+  /* font-family: "WorkSans-SemiBold"; */
+}
+
+.wrap-in .content h2 {
+  /* font-family: "WorkSans-SemiBold"; */
+  margin: 25px 0 10px;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+@media (max-width: 1680px) {
+.wrap-in .page-head {
+    padding: 15px 15px;
+}
+.wrap-in .content {
+  padding: 15px;
+}
+
 }
